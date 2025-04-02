@@ -17,6 +17,10 @@
     <file url="file://$PROJECT_DIR$/rabbit-05-ttl1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-05-ttl2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-05-ttl2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-06-dlx1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-06-dlx1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-06-dlx2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-06-dlx2/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
