@@ -8,7 +8,21 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/rabbit-00-chain/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-01-fanout/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-01-fanout-receive-message/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-01-fanout/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-02-direct/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-04-headers/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-05-ttl/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-05-ttl1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-03-topic/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-05-ttl2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/rabbit-05-ttl/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

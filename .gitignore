@@ -1,0 +1,5 @@
+RabbitMQ/code/rabbit-01-fanout/src/main/resources/application.yml
+RabbitMQ/code/rabbit-01-fanout/target/classes/application.yml
+RabbitMQ/code/rabbit-02-direct/src/main/resources/application.yml
+RabbitMQ/code/rabbit-03-topic/src/main/resources/application.yml
+RabbitMQ/code/rabbit-01-fanout-receive-message/src/main/resources/application.yml

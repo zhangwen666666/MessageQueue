@@ -7,7 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rabbit-05-ttl1" />
         <module name="rabbit-00-chain" />
+        <module name="rabbit-05-ttl2" />
+        <module name="rabbit-03-topic" />
+        <module name="rabbit-04-headers" />
+        <module name="rabbit-01-fanout-receive-message" />
+        <module name="rabbit-02-direct" />
+        <module name="rabbit-01-fanout" />
       </profile>
     </annotationProcessing>
   </component>

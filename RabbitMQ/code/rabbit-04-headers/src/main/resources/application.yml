@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: headers-exchange
+
+  rabbitmq:
+    host: 111.119.211.126
+    port: 5672
+    username: admin
+    password: 123456
+    virtual-host: zw
+
+my:
+  exchangeName: exchange.headers
+  queueAName: queue.headers.a
+  queueBName: queue.headers.b
+

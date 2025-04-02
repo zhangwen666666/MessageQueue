@@ -3,6 +3,20 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/rabbit-00-chain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-00-chain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-fanout-receive-message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-fanout-receive-message/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-fanout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-01-fanout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-02-direct/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-02-direct/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-03-topic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-03-topic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-04-headers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-04-headers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-05-ttl1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-05-ttl1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-05-ttl2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-05-ttl2/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
