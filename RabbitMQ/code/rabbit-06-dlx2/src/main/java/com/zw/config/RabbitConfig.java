@@ -25,6 +25,8 @@ public class RabbitConfig {
     public Queue normalQueue(){
         // 也可以采用建造者模式来绑定死信交换机和死信路由key
         return QueueBuilder.durable(queueNormalName)
+                // .maxLength(5) // 设置队列的最大长度
+                .expires(20000)
                 .deadLetterExchange(exchangeDlxName) // 绑定死信交换机
                 .deadLetterRoutingKey("error") // 绑定死信路由key
                 .build();

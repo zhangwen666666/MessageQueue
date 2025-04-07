@@ -5,3 +5,5 @@ RabbitMQ/code/rabbit-03-topic/src/main/resources/application.yml
 RabbitMQ/code/rabbit-01-fanout-receive-message/src/main/resources/application.yml
 RabbitMQ/code/rabbit-06-dlx1/src/main/resources/application.yml
 RabbitMQ/code/rabbit-06-dlx2/src/main/resources/application.yml
+RabbitMQ/code/rabbit-06-receiver/src/main/resources/application.yml
+RabbitMQ/code/rabbit-07-delay1/src/main/resources/application.yml
