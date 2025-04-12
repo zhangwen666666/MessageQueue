@@ -21,6 +21,11 @@
         <option value="$PROJECT_DIR$/rabbit-06-dlx2/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-06-receiver/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-07-delay1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-07-delay2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-07-delay3-plugins/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-08-confirm1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-09-return/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-10-exchange1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

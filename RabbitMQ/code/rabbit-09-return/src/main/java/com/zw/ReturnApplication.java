@@ -8,12 +8,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Ttl2Application implements ApplicationRunner {
+public class ReturnApplication implements ApplicationRunner {
     @Autowired
     private MessageService messageService;
 
     public static void main(String[] args) {
-        SpringApplication.run(Ttl2Application.class, args);
+        SpringApplication.run(ReturnApplication.class, args);
     }
 
     @Override

@@ -25,6 +25,16 @@
     <file url="file://$PROJECT_DIR$/rabbit-06-receiver/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-07-delay1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-07-delay1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-07-delay2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-07-delay2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-07-delay3-plugins/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-07-delay3-plugins/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-08-confirm1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-08-confirm1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-09-return/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-09-return/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-10-exchange1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-10-exchange1/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

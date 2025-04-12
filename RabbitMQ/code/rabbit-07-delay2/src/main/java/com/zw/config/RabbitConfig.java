@@ -11,7 +11,8 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "my")
 public class RabbitConfig {
     private String exchangeName;
-    private String queueNormalName;
+    private String queueOrderName;
+    private String queuePayName;
     private String queueDlxName;
 
     // 创建交换机
@@ -20,11 +21,21 @@ public class RabbitConfig {
         return ExchangeBuilder.directExchange(exchangeName).build();
     }
 
-    // 创建正常消息队列
+    // 创建订单队列
     @Bean
-    public Queue queueNormal(){
-        return QueueBuilder.durable(queueNormalName)
-//                .ttl(25000) // 设置过期时间
+    public Queue queueOrder(){
+        return QueueBuilder.durable(queueOrderName)
+                .ttl(25000) // 设置过期时间
+                .deadLetterExchange(exchangeName) // 绑定死信交换机(自身)
+                .deadLetterRoutingKey("error") // 绑定死信路由key
+                .build();
+    }
+
+    // 创建支付队列
+    @Bean
+    public Queue queuePay(){
+        return QueueBuilder.durable(queuePayName)
+                .ttl(15000) // 设置过期时间
                 .deadLetterExchange(exchangeName) // 绑定死信交换机(自身)
                 .deadLetterRoutingKey("error") // 绑定死信路由key
                 .build();
@@ -36,10 +47,16 @@ public class RabbitConfig {
         return QueueBuilder.durable(queueDlxName).build();
     }
 
-    // 绑定正常队列到交换机
+    // 绑定订单队列到交换机
     @Bean
-    public Binding bindingNormal(DirectExchange directExchange, Queue queueNormal){
-        return BindingBuilder.bind(queueNormal).to(directExchange).with("order");
+    public Binding bindingOrder(DirectExchange directExchange, Queue queueOrder){
+        return BindingBuilder.bind(queueOrder).to(directExchange).with("order");
+    }
+
+    // 绑定订单队列到交换机
+    @Bean
+    public Binding bindingPay(DirectExchange directExchange, Queue queuePay){
+        return BindingBuilder.bind(queuePay).to(directExchange).with("pay");
     }
 
     // 绑定死信队列到死信交换机

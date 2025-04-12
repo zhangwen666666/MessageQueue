@@ -7,3 +7,8 @@ RabbitMQ/code/rabbit-06-dlx1/src/main/resources/application.yml
 RabbitMQ/code/rabbit-06-dlx2/src/main/resources/application.yml
 RabbitMQ/code/rabbit-06-receiver/src/main/resources/application.yml
 RabbitMQ/code/rabbit-07-delay1/src/main/resources/application.yml
+RabbitMQ/code/rabbit-07-delay2/src/main/resources/application.yml
+RabbitMQ/code/rabbit-07-delay3-plugins/src/main/resources/application.yml
+RabbitMQ/code/rabbit-08-confirm1/src/main/resources/application.yml
+RabbitMQ/code/rabbit-09-return/src/main/resources/application.yml
+RabbitMQ/code/rabbit-10-exchange1/src/main/resources/application.yml
