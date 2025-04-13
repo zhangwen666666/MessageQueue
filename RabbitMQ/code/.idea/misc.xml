@@ -26,6 +26,8 @@
         <option value="$PROJECT_DIR$/rabbit-08-confirm1/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-09-return/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit-10-exchange1/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-10-alternate-exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-11-queue-properties/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

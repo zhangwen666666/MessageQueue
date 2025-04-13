@@ -12,6 +12,7 @@
         <module name="rabbit-05-ttl2" />
         <module name="rabbit-03-topic" />
         <module name="rabbit-07-delay1" />
+        <module name="rabbit-11-queue-properties" />
         <module name="rabbit-01-fanout-receive-message" />
         <module name="rabbit-09-return" />
         <module name="rabbit-06-receiver" />
@@ -19,6 +20,7 @@
         <module name="rabbit-00-chain" />
         <module name="rabbit-06-dlx2" />
         <module name="rabbit-06-dlx1" />
+        <module name="rabbit-10-alternate-exchange" />
         <module name="rabbit-04-headers" />
         <module name="rabbit-02-direct" />
         <module name="rabbit-01-fanout" />
