@@ -25,6 +25,7 @@
         <module name="rabbit-02-direct" />
         <module name="rabbit-01-fanout" />
         <module name="rabbit-08-confirm1" />
+        <module name="rabbit-12-cluster" />
         <module name="rabbit-10-exchange1" />
       </profile>
     </annotationProcessing>
@@ -32,6 +33,7 @@
       <module name="rabbit-05-ttl1 (1)" target="1.8" />
       <module name="rabbit-06-dlx1 (1)" target="1.8" />
       <module name="rabbit-07-delay1 (1)" target="1.8" />
+      <module name="rabbit-10-exchange1 (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

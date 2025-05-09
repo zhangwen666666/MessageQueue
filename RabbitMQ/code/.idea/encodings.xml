@@ -39,6 +39,8 @@
     <file url="file://$PROJECT_DIR$/rabbit-10-exchange1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-11-queue-properties/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit-11-queue-properties/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-12-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit-12-cluster/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
