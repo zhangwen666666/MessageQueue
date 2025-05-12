@@ -25,6 +25,11 @@
             <optional>true</optional>
         </dependency>
 
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
         <!--rocketmq原生api-->
         <dependency>
             <groupId>org.apache.rocketmq</groupId>
