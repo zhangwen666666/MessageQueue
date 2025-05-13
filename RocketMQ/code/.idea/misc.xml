@@ -8,6 +8,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/01-rocketmq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-02-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-02-boot-p/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-02-boot-c/pom.xml" />
       </list>
     </option>
   </component>
