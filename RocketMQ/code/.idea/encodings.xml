@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/rocketmq-02-boot-c/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-02-boot-p/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocketmq-02-boot-p/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seckill-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seckill-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skill-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/skill-web/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

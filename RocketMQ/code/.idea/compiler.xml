@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rocketmq-02-boot-c" />
+        <module name="seckill-service" />
         <module name="rocketmq-02-boot-p" />
+        <module name="skill-web" />
         <module name="rocketmq-demo" />
       </profile>
     </annotationProcessing>

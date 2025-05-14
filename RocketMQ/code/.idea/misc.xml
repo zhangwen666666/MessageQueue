@@ -4,6 +4,9 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/seckill-service" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -11,6 +14,8 @@
         <option value="$PROJECT_DIR$/rocketmq-02-boot/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-02-boot-p/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-02-boot-c/pom.xml" />
+        <option value="$PROJECT_DIR$/skill-web/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-service/pom.xml" />
       </list>
     </option>
   </component>
