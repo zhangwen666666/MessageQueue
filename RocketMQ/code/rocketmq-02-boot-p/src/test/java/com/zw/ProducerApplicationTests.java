@@ -62,6 +62,5 @@ class ProducerApplicationTests {
         // 发送一个带tag的消息
         rocketMQTemplate.syncSend("bootTagTopic:tagA", "我是一个带tag的消息");
 
-        MessageBuilder.withPayload("我是一个带key的消息").
     }
 }

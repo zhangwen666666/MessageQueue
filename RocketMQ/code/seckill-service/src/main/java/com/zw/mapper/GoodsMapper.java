@@ -25,4 +25,5 @@ public interface GoodsMapper {
      */
     List<Goods> selectSeckillGoods();
 
+    int updateStock(Integer goodsId);
 }

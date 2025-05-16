@@ -8,6 +8,8 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 @RestController
 public class SeckillController {
 
@@ -15,6 +17,8 @@ public class SeckillController {
     private StringRedisTemplate redisTemplate;
     @Autowired
     private RocketMQTemplate rocketMQTemplate;
+
+    AtomicInteger userIdAt = new AtomicInteger(0);
 
     /**
      * 秒杀
@@ -24,8 +28,9 @@ public class SeckillController {
      * @return
      */
     @GetMapping("seckill")
-    public String doSeckill(Integer goodsId, Integer userId) {
+    public String doSeckill(Integer goodsId/*, Integer userId*/) {
         // 1. 用户去重 uk uniqueKey = goodsId + userId
+        int userId = userIdAt.incrementAndGet(); // 模拟用户id
         String uk = goodsId + "-" + userId;
         Boolean flag = redisTemplate.opsForValue().setIfAbsent(uk, "");//setnx
         if (!flag) {
@@ -41,7 +46,7 @@ public class SeckillController {
         }
 
         // 3. 消息放入mq 异步处理
-        rocketMQTemplate.asyncSend("seckillTopic", uk, new SendCallback() {
+        rocketMQTemplate.asyncSend("seckillTopic4", uk, new SendCallback() {
             @Override
             public void onSuccess(SendResult sendResult) {
                 System.out.println("发送成功");

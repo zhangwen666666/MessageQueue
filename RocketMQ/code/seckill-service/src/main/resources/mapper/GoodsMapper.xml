@@ -133,4 +133,7 @@
       spike = #{spike,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+    <update id="updateStock">
+      update goods set stocks = stocks - 1, update_time = now() where id = #{goodsId}
+    </update>
 </mapper>
